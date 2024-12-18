@@ -1,0 +1,75 @@
+.TourName {
+	font-size: 36px;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	color: #404040;
+}
+.PricesHeader {
+	font-size: 24px;
+	font-weight: 600;
+	font-family: Roboto Flex, open-sans;
+	color: #404040;
+	min-height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.TourPage {
+	display: flex;
+	justify-content: center;
+}
+.TourPrice {
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0px 2px 8px 0px rgba(168, 168, 168, 0.15);
+	border-radius: 12px;
+	width: 100%;
+}
+.TourPrices {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0px;
+}
+.PriceBtn {
+	display: flex;
+	align-items: center;
+	padding: 10px 16px;
+	background-color: #60b822;
+	border-radius: 12px;
+	height: 44px;
+	color: #fff;
+	max-width: 140px;
+}
+.TourDescription {
+	min-height: 36px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.quantitybutton {
+	display: flex;
+}
+.TourImage {
+	max-width: 800px;
+}
+.Prices {
+	width: 100%;
+}
+.TourPriceLeft {
+	width: 300px;
+}
+.Room {
+	color: #404040;
+}
+
+.TourPriceDates {
+	color: #404040;
+}
+
+.TourDescription,
+.TourLocation,
+.TourName,
+.PricesHeader {
+	color: #404040;
+}

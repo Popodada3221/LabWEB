@@ -1,0 +1,55 @@
+.OverlaySend {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+}
+.ModalSend {
+	inset: unset;
+	bottom: 40px;
+	position: absolute;
+	right: 200px;
+	background-color: #fff;
+	box-shadow: 0px 2px 8px 0px rgba(168, 168, 168, 0.15);
+	border-radius: 12px;
+}
+textarea {
+	resize: none;
+}
+.SendContent {
+	display: flex;
+	flex-direction: column;
+}
+.ContactsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+li {
+	margin: 10px;
+}
+
+.map {
+	width: 100%;
+	border-radius: 14px;
+}
+.ContactsContentWrapper {
+	background-color: #fff;
+	width: 100%;
+	padding: 30px;
+	border-radius: 14px;
+	display: flex;
+	flex-direction: column;
+}
+
+.send {
+	justify-content: center;
+}

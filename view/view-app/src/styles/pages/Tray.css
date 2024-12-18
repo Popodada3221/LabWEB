@@ -1,0 +1,11 @@
+.TrayContainer {
+	display: flex;
+	justify-content: center;
+}
+.TourPrice {
+	margin: 10px;
+}
+.orderLink {
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,36 @@
+.Promo {
+	min-width: 0;
+}
+
+.swiper {
+	max-width: 744px;
+	max-height: 400px;
+	min-height: 400px;
+	margin-bottom: 48px;
+}
+body {
+	background-color: #f8fafc;
+}
+.swiper-wrapper {
+	display: flex;
+	align-items: top;
+}
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+	align-items: center;
+}
+.swiper-pagination-bullet {
+	background: #def0f9;
+}
+.swiper-pagination-bullet-active {
+	background: #2a9ddd;
+}
+.swiper-button-next,
+.swiper-button-prev {
+	color: #fff;
+}
+.PromoImg {
+	width: 100%;
+}

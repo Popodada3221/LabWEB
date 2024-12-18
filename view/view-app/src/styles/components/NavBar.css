@@ -1,0 +1,109 @@
+.NavBar {
+	display: flex;
+	justify-content: space-around;
+}
+.Panel,
+.Auth {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.Panel__Item {
+	margin: 20px;
+	font-family: 'Roboto Flex';
+	font-size: 16px;
+	font-weight: 600;
+	color: #979797;
+	transition: 0.3s ease-in-out;
+}
+
+.Panel__Item:hover {
+	color: #2a9ddd;
+	text-decoration-line: underline;
+}
+
+.Panel__Item.active {
+	color: #2a9ddd;
+}
+
+.Register,
+.Login {
+	margin: 24px;
+	color: #fff;
+}
+
+.Logo {
+	margin: 12px;
+}
+.ReactModal__Overlay--after-open {
+}
+.Modal {
+	inset: unset;
+	right: 60px;
+	position: absolute;
+	background-color: #fff;
+	top: 87px;
+	box-shadow: 0px 2px 8px 0px rgba(168, 168, 168, 0.15);
+	border-radius: 12px;
+}
+.Overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.authForm {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 240px;
+	z-index: 11;
+	margin: 5px;
+}
+
+#NameInput,
+#OTInput,
+#LastNameInput,
+#emailInput,
+#emailInputRegister,
+#passwordInput,
+#passwordInputRegister,
+#passwordRetype,
+.submit {
+	height: 36px;
+	border-radius: 12px;
+	box-shadow: 0px 2px 8px 0px rgba(168, 168, 168, 0.15);
+}
+
+.submit {
+	background: #60b822;
+	background-color: #60b822;
+	color: #ffff;
+	padding: 10px;
+	font-family: Roboto Flex, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.send {
+	padding: 10px;
+	display: flex;
+}
+
+.base-button {
+	color: #ffff;
+	display: block;
+}
+
+.CardCounter {
+	position: absolute;
+	border-radius: 4px;
+	background-color: red;
+}
